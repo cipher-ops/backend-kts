@@ -1,0 +1,1 @@
+default_app_config = 'kratos.apps.auth.apps.AuthConfig'

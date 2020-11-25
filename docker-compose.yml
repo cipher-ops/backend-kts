@@ -1,0 +1,9 @@
+backend-kts:
+  image: backend-kts
+  container_name: backend-kts
+  ports:
+  - 8000:8000
+  restart: always
+  volumes:
+    - /data/backend-kts/logs/:/data/backend-kts/logs/
+  command: bash -c "sh /opt/backend-kts/start.sh"

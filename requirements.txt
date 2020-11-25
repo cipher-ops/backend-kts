@@ -1,0 +1,28 @@
+# basic
+Django==3.0.5
+django-mysql==3.5.0
+djangorestframework==3.11.0
+mysqlclient==1.4.6
+
+# for celery
+redis==3.5.3
+celery==4.4.7
+
+# for gunicorn
+gunicorn==20.0.4
+uvicorn
+uvloop
+httptools
+
+# for workflow
+requests
+pycryptodome
+colorlog==4.1.0
+ansible==2.9.9
+docker==4.3.1
+wget==3.2
+gitdb2==2.0.6
+GitPython==3.0.3
+
+# for swagger-ui
+uritemplate==3.0.1
